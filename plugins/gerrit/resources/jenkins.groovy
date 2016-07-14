@@ -42,7 +42,7 @@ if (PluginImpl.getInstance().getServer(name) == null) {
 } else {
   config = PluginImpl.getInstance().getServer(name).getConfig()
 }
-config.setGerritBuildCurrentPatchesOnly(true)
+//config.setGerritBuildCurrentPatchesOnly(true)
 config.setGerritHostName(hostname)
 config.setGerritFrontEndURL(url)
 config.setGerritUserName(username)
